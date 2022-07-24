@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+  
+  
+  .container{
+    width: 300px;
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  #logo{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #6f8faf;
+    padding: 4px;
+    border-radius: 50%;
+  }
+
+  #logo:hover{
+    border: 4px solid rgb(255, 51, 51);
+  }
+  
+  h1{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: normal;
+  }
+
+  .shop{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+  }
+  
+  a, p{
+    text-decoration: none;
+    color: black
+  }
+  
+  ul{
+    list-style: none;
+    margin: 28px 0;
+  }
+  
+  
+  ul li a{
+    display: flex;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    background-color: #6f8faf;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: background 0.2s;
+  }
+  
+  ul li a:hover{
+    background-color: rgb(255, 51, 51);
+  }
+
+  #bear{
+    width: 120px;
+    margin-top: 20px;
+  }
+
+  #footer{
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #fashion{
+    margin-left: 10px;
+  }
